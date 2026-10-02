@@ -22,9 +22,11 @@ function ListPage() {
     getPitchess();
   },[]);
   function deletePitchess(id:string) {
+    if(window.confirm("bạn có chắc chắn muốn xóa?")) {
     axios.delete(`http://localhost:3000/pitches/${id}`).then((res)=>{
       getPitchess();
     });
+    }
   }
   function searchPitchess(name: string) {
     axios.get(`http://localhost:3000/pitches?name_like=${name}`).then((res)=>{
