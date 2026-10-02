@@ -1,12 +1,25 @@
 {
-  "students": [
+  "pitches": [
     {
       "id": "1",
-      "fullName": "Nguyễn Văn A",
-      "year": 2005,
-      "code": "ph6688",
-      "major": "Marketing"
+      "name": "Sân bóng số 01",
+      "price": 200000,
+      "location": "Hà Đông",
+      "type": "Sân 5"
+    },
+    {
+      "id": "2",
+      "name": "Sân bóng số 02",
+      "price": 250000,
+      "location": "Thanh Xuân",
+      "type": "Sân 7"
+    },
+    {
+      "id": "3",
+      "name": "Sân bóng số 03",
+      "price": 180000,
+      "location": "Cầu Giấy",
+      "type": "Sân 5"
     }
-  ],
-  "users": []
+  ]
 }
